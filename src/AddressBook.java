@@ -13,6 +13,9 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy){
         contacts.remove(buddy);
     }
+    public void printHi(){
+        System.out.println("hiiii in my branch");
+    }
     public static void main(String[] args) {
         System.out.println("Address Book");
         AddressBook addressBook = new AddressBook();
